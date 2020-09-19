@@ -1,0 +1,410 @@
+<html>
+<head>
+
+
+<script type="text/javascript">
+function test()
+{
+var a=document.getElementById("protoqty").value;
+var b=document.getElementById("devcost1").value;
+var c=document.getElementById("cp1").value;
+document.getElementById("tp1").value=Number(a)*Number(c)+Number(b);
+var d=document.getElementById("ioq").value;
+var e=document.getElementById("from1").value;
+var f=document.getElementById("to1").value;
+var g=document.getElementById("pr1").value;
+var e1=document.getElementById("from2").value;
+var f1=document.getElementById("to2").value;
+var g1=document.getElementById("pr2").value;
+var e2=document.getElementById("from3").value;
+var f2=document.getElementById("to3").value;
+var g2=document.getElementById("pr3").value;
+var e3=document.getElementById("from4").value;
+var f3=document.getElementById("to4").value;
+var g3=document.getElementById("pr4").value
+var e4=document.getElementById("from5").value;
+var f4=document.getElementById("to5").value;
+var g4=document.getElementById("pr5").value;
+
+if(Number(d)>=Number(e)&&Number(d)<=Number(f))
+{
+document.getElementById("fc1").value=Number(document.getElementById("tp1").value)+d*g;
+
+
+}
+if(Number(d)>=Number(e1)&&Number(d)<=Number(f1))
+{
+document.getElementById("fc1").value=Number(document.getElementById("tp1").value)+d*g1;
+
+
+}
+if(Number(d)>=Number(e2)&&Number(d)<=Number(f2))
+{
+document.getElementById("fc1").value=Number(document.getElementById("tp1").value)+d*g2;
+
+
+}
+if(Number(d)>=Number(e3)&&Number(d)<=Number(f3))
+{
+document.getElementById("fc1").value=Number(document.getElementById("tp1").value)+d*g3;
+
+
+}
+if(Number(d)>=Number(e4)&&Number(d)<=Number(f4))
+{
+document.getElementById("fc1").value=Number(document.getElementById("tp1").value)+d*g4;
+
+
+}
+document.getElementById("tax1").value=0.18*Number(document.getElementById("fc1").value);
+document.getElementById("tp2").value=Number(document.getElementById("tax1").value)+Number(document.getElementById("fc1").value);
+
+
+}
+function test2()
+{
+var a=document.getElementById("protoqty").value;
+var b=document.getElementById("devcost2").value;
+var c=document.getElementById("cp2").value;
+document.getElementById("tp3").value=Number(a)*Number(c)+Number(b);
+var d=document.getElementById("ioq").value;
+var e=document.getElementById("from6").value;
+var f=document.getElementById("to6").value;
+var g=document.getElementById("pr6").value;
+var e1=document.getElementById("from7").value;
+var f1=document.getElementById("to7").value;
+var g1=document.getElementById("pr7").value;
+var e2=document.getElementById("from8").value;
+var f2=document.getElementById("to8").value;
+var g2=document.getElementById("pr8").value;
+var e3=document.getElementById("from9").value;
+var f3=document.getElementById("to9").value;
+var g3=document.getElementById("pr9").value
+var e4=document.getElementById("from10").value;
+var f4=document.getElementById("to10").value;
+var g4=document.getElementById("pr10").value;
+
+if(Number(d)>=Number(e)&&Number(d)<=Number(f))
+{
+document.getElementById("fc2").value=Number(document.getElementById("tp3").value)+d*g;
+
+
+}
+if(Number(d)>=Number(e1)&&Number(d)<=Number(f1))
+{
+document.getElementById("fc2").value=Number(document.getElementById("tp3").value)+d*g1;
+
+
+}
+if(Number(d)>=Number(e2)&&Number(d)<=Number(f2))
+{
+document.getElementById("fc2").value=Number(document.getElementById("tp3").value)+d*g2;
+
+
+}
+if(Number(d)>=Number(e3)&&Number(d)<=Number(f3))
+{
+document.getElementById("fc2").value=Number(document.getElementById("tp3").value)+d*g3;
+
+
+}
+if(Number(d)>=Number(e4)&&Number(d)<=Number(f4))
+{
+document.getElementById("fc2").value=Number(document.getElementById("tp3").value)+d*g4;
+
+
+}
+document.getElementById("tax2").value=0.18*Number(document.getElementById("fc2").value);
+document.getElementById("tp4").value=Number(document.getElementById("tax2").value)+Number(document.getElementById("fc2").value);
+
+
+}
+function test3()
+{
+var a=document.getElementById("protoqty").value;
+var b=document.getElementById("devcost3").value;
+var c=document.getElementById("cp3").value;
+document.getElementById("tp5").value=Number(a)*Number(c)+Number(b);
+var d=document.getElementById("ioq").value;
+var e=document.getElementById("from11").value;
+var f=document.getElementById("to11").value;
+var g=document.getElementById("pr11").value;
+var e1=document.getElementById("from12").value;
+var f1=document.getElementById("to12").value;
+var g1=document.getElementById("pr12").value;
+var e2=document.getElementById("from13").value;
+var f2=document.getElementById("to13").value;
+var g2=document.getElementById("pr13").value;
+var e3=document.getElementById("from14").value;
+var f3=document.getElementById("to14").value;
+var g3=document.getElementById("pr14").value
+var e4=document.getElementById("from15").value;
+var f4=document.getElementById("to15").value;
+var g4=document.getElementById("pr15").value;
+
+if(Number(d)>=Number(e)&&Number(d)<=Number(f))
+{
+document.getElementById("fc3").value=Number(document.getElementById("tp5").value)+d*g;
+
+
+}
+if(Number(d)>=Number(e1)&&Number(d)<=Number(f1))
+{
+document.getElementById("fc3").value=Number(document.getElementById("tp5").value)+d*g1;
+
+
+}
+if(Number(d)>=Number(e2)&&Number(d)<=Number(f2))
+{
+document.getElementById("fc3").value=Number(document.getElementById("tp5").value)+d*g2;
+
+
+}
+if(Number(d)>=Number(e3)&&Number(d)<=Number(f3))
+{
+document.getElementById("fc3").value=Number(document.getElementById("tp5").value)+d*g3;
+
+
+}
+if(Number(d)>=Number(e4)&&Number(d)<=Number(f4))
+{
+document.getElementById("fc3").value=Number(document.getElementById("tp5").value)+d*g4;
+
+
+}
+document.getElementById("tax3").value=0.18*Number(document.getElementById("fc3").value);
+document.getElementById("tp6").value=Number(document.getElementById("tax3").value)+Number(document.getElementById("fc3").value);
+
+
+}
+function test4()
+{
+var a=document.getElementById("protoqty").value;
+var b=document.getElementById("devcost4").value;
+var c=document.getElementById("cp4").value;
+document.getElementById("tp7").value=Number(a)*Number(c)+Number(b);
+var d=document.getElementById("ioq").value;
+var e=document.getElementById("from16").value;
+var f=document.getElementById("to16").value;
+var g=document.getElementById("pr16").value;
+var e1=document.getElementById("from17").value;
+var f1=document.getElementById("to17").value;
+var g1=document.getElementById("pr17").value;
+var e2=document.getElementById("from18").value;
+var f2=document.getElementById("to18").value;
+var g2=document.getElementById("pr18").value;
+var e3=document.getElementById("from19").value;
+var f3=document.getElementById("to19").value;
+var g3=document.getElementById("pr19").value
+var e4=document.getElementById("from20").value;
+var f4=document.getElementById("to20").value;
+var g4=document.getElementById("pr20").value;
+
+if(Number(d)>=Number(e)&&Number(d)<=Number(f))
+{
+document.getElementById("fc4").value=Number(document.getElementById("tp7").value)+d*g;
+
+
+}
+if(Number(d)>=Number(e1)&&Number(d)<=Number(f1))
+{
+document.getElementById("fc4").value=Number(document.getElementById("tp7").value)+d*g1;
+
+
+}
+if(Number(d)>=Number(e2)&&Number(d)<=Number(f2))
+{
+document.getElementById("fc4").value=Number(document.getElementById("tp7").value)+d*g2;
+
+
+}
+if(Number(d)>=Number(e3)&&Number(d)<=Number(f3))
+{
+document.getElementById("fc4").value=Number(document.getElementById("tp7").value)+d*g3;
+
+
+}
+if(Number(d)>=Number(e4)&&Number(d)<=Number(f4))
+{
+document.getElementById("fc4").value=Number(document.getElementById("tp7").value)+d*g4;
+
+
+}
+document.getElementById("tax4").value=0.18*Number(document.getElementById("fc4").value);
+document.getElementById("tp8").value=Number(document.getElementById("tax4").value)+Number(document.getElementById("fc4").value);
+
+
+}
+
+
+function test6()
+{
+var a=Math.min(Number(document.getElementById("tp2").value),Number(document.getElementById("tp4").value),Number(document.getElementById("tp6").value),Number(document.getElementById("tp8").value));
+document.getElementById("finale").value=a;
+if(a==Number(document.getElementById("tp2").value))
+{
+ 
+  document.getElementById("supplier").value=document.getElementById("name1").value;
+  
+}
+if(a==Number(document.getElementById("tp4").value))
+{
+ 
+  document.getElementById("supplier").value=document.getElementById("name2").value;       
+  
+}
+if(a==Number(document.getElementById("tp6").value))
+{
+ 
+  document.getElementById("supplier").value=document.getElementById("name3").value;
+  
+}
+if(a==Number(document.getElementById("tp8").value))
+{
+ 
+  document.getElementById("supplier").value=document.getElementById("name4").value;
+  
+}
+document.getElementById("three").value=Number(document.getElementById("finale").value)*Number(document.getElementById("fq").value);
+
+}
+
+
+</script>
+
+
+
+
+</head>
+<body bgcolor="pink">
+		<table width="200%" height="100px"cellpadding="0" cellspacing="0" border="1" bgcolor="pink">
+			
+			
+			<tr><td>L-1 SUPPLIER<input type="text" id="supplier"></td><td>1 year cost<input type="text" id="finale" onfocus='test6();'> </td><td>3 year cost <input type="text" id="three"></td><td>Tender Mode <input type="text"></td><td>AOC/IFA<input type="text"></td>
+		</table>
+		<table width="200%" height="100px" cellpadding="0" border="1" bgcolor="yellow"> 
+			<tr><td>Proto QTY<input type="text" id="protoqty"></td><td>IOQ(1yr)<input type="text" id="ioq"></td><td>FUTURE QUANTITY<input type="text" id="fq"></td>		
+		</table>
+<table width="200%" height="400px" cellspacing="0" cellpadding="0" border="1">
+<tr>
+<td>
+
+SUPPLIER ONE:<input type="text"id="name1">  </br>                         
+&nbsp;&nbsp;&nbsp;&nbsp;Prototype(s)						</br>		   
+															   
+Dev Cost:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="devcost1" > 	</br>					   
+															   
+Cost/Item:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="cp1">    </br>               
+															   
+															   
+Total Proto Cost:&nbsp;&nbsp;<input type="text" onfocus='test();' id="tp1"></br>
+
+         FUTURE COST BREAKDOWN</br>
+  FROM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	              Price</br>
+<input type="text" id="from1"> <input type="text" id="to1"> <input type="text" id="pr1"></br>
+<input type="text" id="from2"> <input type="text" id="to2"> <input type="text" id="pr2"> </br> 
+<input type="text" id="from3"> <input type="text" id="to3"> <input type="text" id="pr3"></br>
+<input type="text" id="from4"> <input type="text" id="to4"> <input type="text" id="pr4"></br>
+<input type="text" id="from5"> <input type="text" id="to5"> <input type="text" id="pr5"></br>
+
+           IDQ(1 yr)	</br>
+FUTURE Cost:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="fc1"></br>
+
+Tax@18%:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        <input type="text" id="tax1"></br>
+
+Total Proto Cost: &nbsp;<input type="text" id="tp2"></br>
+
+</td>
+<td>
+SUPPLIER TWO:<input type="text" id="name2"> </br>                          
+&nbsp;&nbsp;&nbsp;&nbsp;Prototype(s)						</br>		   
+															   
+Dev Cost:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="devcost2" > 	</br>					   
+															   
+Cost/Item:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="cp2">    </br>               
+															   
+															   
+Total Proto Cost:&nbsp;&nbsp;<input type="text" onfocus='test2();' id="tp3"></br>
+
+         FUTURE COST BREAKDOWN</br>
+  FROM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	              Price</br>
+<input type="text" id="from6"> <input type="text" id="to6"> <input type="text" id="pr6"></br>
+<input type="text" id="from7"> <input type="text" id="to7"> <input type="text" id="pr7"> </br> 
+<input type="text" id="from8"> <input type="text" id="to8"> <input type="text" id="pr8"></br>
+<input type="text" id="from9"> <input type="text" id="to9"> <input type="text" id="pr9"></br>
+<input type="text" id="from10"> <input type="text" id="to10"> <input type="text" id="pr10"></br>
+
+           IDQ(1 yr)	</br>
+FUTURE Cost:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="fc2"></br>
+
+Tax@18%:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        <input type="text" id="tax2"></br>
+
+Total Proto Cost: &nbsp;<input type="text" id="tp4"></br>
+
+</td>
+<td>
+
+SUPPLIER THREE:<input type="text" id="name3"> </br>                          
+&nbsp;&nbsp;&nbsp;&nbsp;Prototype(s)						</br>		   
+															   
+Dev Cost:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="devcost3" > 	</br>					   
+															   
+Cost/Item:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="cp3">    </br>               
+															   
+															   
+Total Proto Cost:&nbsp;&nbsp;<input type="text" onfocus='test3();' id="tp5"></br>
+
+         FUTURE COST BREAKDOWN</br>
+  FROM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	              Price</br>
+<input type="text" id="from11"> <input type="text" id="to11"> <input type="text" id="pr11"></br>
+<input type="text" id="from12"> <input type="text" id="to12"> <input type="text" id="pr12"> </br> 
+<input type="text" id="from13"> <input type="text" id="to13"> <input type="text" id="pr13"></br>
+<input type="text" id="from14"> <input type="text" id="to14"> <input type="text" id="pr14"></br>
+<input type="text" id="from15"> <input type="text" id="to15"> <input type="text" id="pr15"></br>
+
+           IDQ(1 yr)	</br>
+FUTURE Cost:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="fc3"></br>
+
+Tax@18%:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        <input type="text" id="tax3"></br>
+
+Total Proto Cost: &nbsp;<input type="text" id="tp6"></br>
+
+</td>
+<td>
+
+SUPPLIER FOUR:<input type="text" id="name4"> </br>                          
+&nbsp;&nbsp;&nbsp;&nbsp;Prototype(s)						</br>		   
+															   
+Dev Cost:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="devcost4" > 	</br>					   
+															   
+Cost/Item:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="cp4">    </br>               
+															   
+															   
+Total Proto Cost:&nbsp;&nbsp;<input type="text" onfocus='test4();' id="tp7"></br>
+
+         FUTURE COST BREAKDOWN</br>
+  FROM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	              Price</br>
+<input type="text" id="from16"> <input type="text" id="to16"> <input type="text" id="pr16"></br>
+<input type="text" id="from17"> <input type="text" id="to17"> <input type="text" id="pr17"> </br> 
+<input type="text" id="from18"> <input type="text" id="to18"> <input type="text" id="pr18"></br>
+<input type="text" id="from19"> <input type="text" id="to19"> <input type="text" id="pr19"></br>
+<input type="text" id="from20"> <input type="text" id="to20"> <input type="text" id="pr20"></br>
+
+           IDQ(1 yr)	</br>
+FUTURE Cost:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="fc4"></br>
+
+Tax@18%:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        <input type="text" id="tax4"></br>
+
+Total Proto Cost: &nbsp;<input type="text" id="tp8"></br>
+
+</td>
+
+
+</tr>
+</table>
+
+		
+		
+		
+</body>
+</html>
